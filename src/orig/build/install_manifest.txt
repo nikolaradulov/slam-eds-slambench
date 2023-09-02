@@ -1,0 +1,2 @@
+/home/nrad/slam-eds-slambench/lib/libslam_eds-original.so
+/home/nrad/slam-eds-slambench/lib/libslam_eds-original-library.so
