@@ -6,7 +6,7 @@
  tracker:
   percent_points: 7.0 #percentage of image points to track
   type: 'ceres'
-  bootstrapping: MiDAS #EIGHT_POINTS
+  bootstrapping: EIGHT_POINTS #MiDAS 
   loss_function:
     type: "Huber"
     param: [0.1]
@@ -34,7 +34,8 @@
   type: 'ceres'
   percent_points: 50.0 #percentage of all points in windows to use
   percent_marginalize_vis: 30.0  #percent of visual point in orderto seletc the kf to marginalize
-  window_size: 7 #sliding window 
+  # 7 in the paper
+  window_size: 4 #sliding window 
   loss_function:
     type: "Huber"
     param: [1.0]

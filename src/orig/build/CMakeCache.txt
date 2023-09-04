@@ -213,7 +213,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 DEPS_PATH:UNINITIALIZED=/home/nrad/dev/install
 
 //No help, variable specified on the command line.
-EIGEN3_INCLUDE_DIR:UNINITIALIZED=/home/nrad/slambench/deps/eigen3/include/eigen3
+EIGEN3_INCLUDE_DIR:UNINITIALIZED=/usr/include/eigen3/
 
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/opencv4

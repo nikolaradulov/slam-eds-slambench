@@ -47,7 +47,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/opencv4/opencv"
   "/usr/include/opencv4"
   "/usr/include/pcl-1.10"
-  "/usr/local/include/eigen3"
+  "/usr/include/eigen3"
   )
 
 # Targets to which this target links.

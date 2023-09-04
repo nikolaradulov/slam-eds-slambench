@@ -19,7 +19,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../PUBLIC"
   "/home/nrad/dev/install/include/eds"
   "/home/nrad/slambench/framework/shared/include"
-  "/home/nrad/slambench/deps/eigen3/include/eigen3"
+  "/usr/include/eigen3"
   "/home/nrad/slambench/deps/opencv/include"
   "/home/nrad/dev/install/include/base"
   "../task"

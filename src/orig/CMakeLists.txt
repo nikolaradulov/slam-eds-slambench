@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.8)
 project(slam_eds)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -O3")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -O1 -g")
 
 find_package(OpenCV REQUIRED)
 find_package(Rock)
